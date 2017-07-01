@@ -1,0 +1,295 @@
+html {
+
+	background: url(Image/Blacked_Cover.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+	-moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+}
+body{
+
+	position: relative;
+  	margin: 0;
+  	padding-bottom: 6rem;
+}
+
+@font-face {
+	font-family:JosefinSans-Light;
+	src: url(Fonts/JosefinSans-Light.ttf);
+}
+@font-face {
+	font-family:JosefinSans-Regular;
+	src: url(Fonts/JosefinSans-Regular.ttf);
+}
+@font-face {
+	font-family:JosefinSans-Thin;
+	src: url(Fonts/JosefinSans-Thin.ttf);
+}
+@font-face {
+	font-family:OpenSans-Regular;
+	src: url(Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+	font-family:OpenSans-Light;
+	src: url(Fonts/OpenSans-Light.ttf);
+}
+@font-face {
+	font-family:OpenSans-Bold;
+	src: url(Fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family:timeburnernormal;
+	src: url(Fonts/timeburnernormal.ttf);
+}
+@font-face {
+	font-family:timeburnerbold;
+	src: url(Fonts/timeburnerbold.ttf);
+}
+
+
+/*Navigation Bar*/
+.headerContainer {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	background-attachment: fixed;
+	margin-bottom: 50px;
+}
+.headerContainer img{
+	float; left;
+	height: 60px;
+	width: 80px;
+	border-radius: 82px;
+	box-shadow: 0 0 0 1px black;
+	margin-left: 20px;
+	margin-top: 10px;
+	vertical-align: middle;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.headerContainer p{
+	font-size: 30px;
+	display: inline;
+	color: white;
+	font-family: timeburnerbold;
+	vertical-align: bottom;
+}
+.headerContainer ul{
+	padding: 0;
+  	margin-top: 10px;
+  	text-align: center;
+  	vertical-align: top;
+  	float: right;
+}
+.headerContainer li{
+	list-style-type: none;
+  	padding: 0;
+  	height: 24px;
+  	vertical-align: top;
+  	display: inline-block;
+  	text-shadow: 1px 1px 1px black, 0 0 1px black, 0 0 5px black;
+}
+.headerContainer a{
+	color: #e5e5e5;
+  	font-size: 20px;
+  	font-family: timeburnernormal;
+  	text-decoration: none;
+  	line-height: 70px;
+  	padding: 5px 15px;
+  
+}
+.headerContainer ul li a:hover{
+	color:white;
+
+}
+.headerContainer a:visited{
+	color: #e5e5e5;
+}
+
+/*End of Navigation Bar*/
+/*Welcoming Message*/
+.CenterCont{
+	background-color: rgba(0, 0, 0, 0.2);
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 20px;
+	margin-top: 120px;
+	color:white;
+	padding: 10px;
+	padding-right: 150px;
+	padding-left: 150px;
+	align-content: center;
+}
+.Message h3{
+	
+	font-family: timeburnerbold;
+	font-size: 50px;
+}
+.Message p{
+	font-family: timeburnernormal;
+	font-size: 20px;
+}
+.CenterCont img{
+
+	width: 350px;
+	height: 250px;
+}
+/*End of Welcoming Message*/
+
+.BottomCont{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 20px;
+	margin-top: 20px;
+	color:white;
+	padding: 10px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-left: 100px;
+	align-content: center;
+}
+.BottomCont h3{
+	font-family: timeburnerbold;
+	font-size: 20px;
+}
+.BottomCont p{
+	font-family: timeburnernormal;
+	font-size: 14px;
+	text-align: center;
+}
+.BottomCont img{
+
+	width: 120px;
+	height: 120px;
+	border-radius: 120px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*Social Media Accounts*/
+.Bottom-BottomCont{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: auto;
+	height: auto;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 20px;
+	margin-top: 20px;
+	color:white;
+	padding: 10px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-left: 100px;
+	align-content: center;
+}
+.Bottom-BottomCont h3{
+	font-family: timeburnerbold;
+	font-size: 20px;
+}
+.Bottom-BottomCont img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+}
+
+/*Footer*/
+.footer {
+  height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
+  text-align: center;
+  vertical-align: center;
+  color: white;
+  font-family: OpenSans-Light;
+  font-size: 12px;
+}
+.nav-phone{
+	background: url(Image/menu-phone.png);
+	background-size: 100%;
+	display: none;
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+/*Phone CSS*/
+@media only screen and (max-width: 768px) {
+	.nav-phone{
+		display: inline-block;
+	}
+	.headerContainer ul, .headerContainer:active ul{
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background-color: black;
+		right: 0;
+		top: 50px;
+		width: 100%;
+	}
+	.headerContainer, .headerContainer:hover ul{
+		display: block;
+	}
+
+	.headerContainer li{
+		text-align: center;
+		width: 100%;
+		padding: 15px 0;
+		margin: 0;
+	}
+
+	.headerContainer{
+		height: 60px;
+	}
+   .headerContainer img{
+   	height: 40px;
+   	width: 60px;
+   	display: block;
+   	vertical-align: center;
+   	margin-top: 8px;
+   	margin-left: none;
+   	vertical-align: middle;
+   	float: left;
+   }
+   .headerContainer p{
+   	font-size: 24px;
+   	display: inline;
+   	margin-top: 15px;
+   	vertical-align: middle;
+   	float: left;
+   }
+   .headerContainer ul{
+   	display: none;
+   }
+   .CenterCont {
+   	padding: 15px;
+   }
+   .BottomCont {
+   	padding: 5px;
+   }
+   .BottomCont h3{
+   	font-size: 20px;
+   }
+   .Message h3{
+   	font-size: 30px;
+   }
+   .Message p{
+   	font-size: 14px;
+   }
+   .Bottom-BottomCont{
+   	padding: 5px;
+   }
+   .Bottom-BottomCont h3{
+   	font-size: 16px;
+   }
+   .Bottom-BottomCont img{
+   	width: 25px;
+   	height: 25px;
+   	border-radius: 25px;
+   }
+}
